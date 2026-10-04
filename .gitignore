@@ -1,0 +1,24 @@
+# Node (dashboard)
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+
+# Python (digital twin)
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Editors and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Env files (never commit real secrets if you move keys here later)
+.env
+.env.local
